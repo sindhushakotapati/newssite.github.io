@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -32,9 +32,8 @@ body{
      background-color: rgba(238, 239, 236, 0.73);
 }
 h1{
-    font-family:serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 48px;
     padding: 10px;
     text-align: center;
 }
@@ -44,16 +43,15 @@ h1{
 }
 .datetime{
     float:right;
-    font-family: cursive;
     font-style: italic;
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .weather{
     height: 90px;
 }
 .news{
-    margin: 10px;
+    margin: 5px;
 }
 /*....center news block.....*/
 .centralblock{
@@ -62,6 +60,7 @@ h1{
 }
 h2{
     padding: 15px;
+    font-size: 30px;
 }
 .centerimg{
     width: 100%;
@@ -69,7 +68,7 @@ h2{
     padding: 10px;
 }
 .centernews{
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px;
 }
 /*.....side news block....*/
@@ -85,15 +84,78 @@ h2{
 h4{
     padding: 10px;
     padding-top: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .sidenews{
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
 h3{
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 22px;
     padding: 5px;
     padding-top: 15px;
+}
+/*.....small news blocks....*/
+.smallimg{
+    width: 40%;
+    height: 95px;
+    float: left;
+}
+.smallnews{
+    font-size:16px;
+    width: 55%;
+    float: right;
+    font-weight: bold;
+}
+.smallblock{
+    background-color: #e5e5e5;
+    padding: 5px;
+}
+/*....ads block.....*/
+.adsblock{
+    background-color: #e5e5e5;
+    padding: 5px;
+}
+.ads{
+    width:100%;
+    height:auto;
+    padding: 5px;
+}
+/*....subscription block...*/
+.subscribeblock{
+    background-color: #fc6666;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*....news headings block....*/
+.subnewsblock{
+    background-color: #e5e5e5;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.subnewsblock h2{
+    padding: 10px;
+}
+/*...horoscope....*/
+.horoscopeblock{
+   background-color: #e5e5e5;
+    padding: 5px; 
+}
+.eachzodiac img{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+.eachzodiac p{
+    font-size:14px;
+    width: 45%;
+    float: right;
+    text-align: center;
+    padding: 5px;
+}
+.eachzodiac{
+    display: table-row;
 }

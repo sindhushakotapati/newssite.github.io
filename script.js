@@ -1,7 +1,7 @@
 function getclock(){
-var h, m,s, day, mon, year,d, fulldate,suffix;
+var h, m,s, days, mon, year,d, fulldate,suffix;
 d=new Date();
-day= d.getDay();
+days= d.getDate();
 mon= d.getMonth()+1;
 year= d.getFullYear();
 h= d.getHours();
@@ -16,7 +16,7 @@ s= d.getSeconds();
     if(h != 12){
         h %= 12;
     }
- fulldate = mon+"/"+day+ "/" + year + " " +h + ":" + m + ":"+ s + " "+ suffix;
+ fulldate = mon+"/"+ days + "/" + year + "<br/> " +h + ":" + m + ":"+ s + " "+ suffix;
 document.getElementById("date").innerHTML = fulldate;
 setTimeout(getclock);
 }
