@@ -31,11 +31,15 @@
 body{
      background-color: rgba(238, 239, 236, 0.73);
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-style: italic;
     font-size: 48px;
     padding: 10px;
     text-align: center;
+    color: #084172;
 }
 .calendaricon{
     font-size: 30px;
@@ -43,9 +47,8 @@ h1{
 }
 .datetime{
     float:right;
-    font-style: italic;
-    font-size: 15px;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 .weather{
     height: 90px;
@@ -61,6 +64,10 @@ h1{
 h2{
     padding: 15px;
     font-size: 30px;
+    color: black;
+}
+h2:hover{
+    color:#696767;
 }
 .centerimg{
     width: 100%;
@@ -70,6 +77,12 @@ h2{
 .centernews{
     font-size: 20px;
     padding: 5px;
+}
+.centernews p{
+    color:black;
+}
+.centernews p:hover{
+    color: #696767;
 }
 /*.....side news block....*/
 .sideimg{
@@ -90,11 +103,15 @@ h4{
     font-size: 16px;
     padding: 5px;
 }
+div.sidenews:hover{
+   color: #696767; 
+}
 h3{
     text-align: left;
     font-size: 22px;
     padding: 5px;
     padding-top: 15px;
+    color: black;
 }
 /*.....small news blocks....*/
 .smallimg{
@@ -107,6 +124,9 @@ h3{
     width: 55%;
     float: right;
     font-weight: bold;
+}
+div.smallnews:hover{
+   color: #696767; 
 }
 .smallblock{
     background-color: #e5e5e5;
@@ -124,10 +144,22 @@ h3{
 }
 /*....subscription block...*/
 .subscribeblock{
-    background-color: #fc6666;
+    background-color: #fc6666 ;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    
+}
+.buttons {
+  background-color:#e5e5e5; /* Green */
+  border: none;
+  color: black;
+  padding: 15px;
+    margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; 
 }
 /*....news headings block....*/
 .subnewsblock{
@@ -155,7 +187,43 @@ h3{
     float: right;
     text-align: center;
     padding: 5px;
+    color: black;
 }
 .eachzodiac{
     display: table-row;
+}
+/*......detailed news....*/
+.detailednews{
+    background-color: #e5e5e5;
+    padding: 5px;
+}
+#img1{
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#img2{
+    width: 70%;
+    height: auto;
+    padding: 50px;
+    padding-left: 350px;
+    display: block;
+}
+.detailednews p{
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+}
+.detailednews h2{
+    font-size: 40px;
+    color: #5a031e;
+    text-align: center;
+    padding: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
 }
